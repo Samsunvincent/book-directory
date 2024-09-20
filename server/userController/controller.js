@@ -75,14 +75,14 @@ exports.getsingledata = async function (req, res) {
         let single_Data = await book.findOne({ _id: id });
         console.log("single_Data : ", single_Data);
 
-        let strsingle_Data = JSON.stringify(single_Data);
-        console.log("strsingle_Data", strsingle_Data);
+        // let strsingle_Data = JSON.stringify(single_Data);
+        // console.log("strsingle_Data", strsingle_Data);
 
         let response = success_function({
             success: true,
             statusCode: 200,
             message: "fetching successfull",
-            data: strsingle_Data
+            data: single_Data
         })
         res.status(response.statusCode).send(response);
         return;

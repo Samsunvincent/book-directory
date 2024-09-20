@@ -19,14 +19,14 @@
         <link rel="stylesheet" href="add-book.css">
     </head>
 
-    <body class="">
+    <body onload="typefill()">
         <div class="position-relative">
             <img src="./images/great-books-for-anytime-2000-4ff4221eb1e54b659689fef7d5e265d5.webp" class="img-fluid filter-custom w-100 " alt="">
             <div class="container p-5
              position-absolute top-50 start-50 translate-middle d-flex flex-column justify-content-center">
                 
                 
-                <form onsubmit="addbook(event)" class="container p-5  d-flex flex-column gap-4 shadow-lg  mb-5 bg-body rounded w-50 opacity">
+                <form onsubmit="UpdateBook()" class="container p-5  d-flex flex-column gap-4 shadow-lg  mb-5 bg-body rounded w-50 opacity">
 
                     <h1 class="text-center text-danger">add book data here</h1>
     
@@ -43,7 +43,7 @@
                     <input type="text" name="image" id="image" placeholder="enter image url" class="p-3 rounded-pill" required>
          
                      <div class="text-center">
-                        <button type="submit" class="btn btn-primary w-25 rounded-pill">Submit</button>
+                        <button type="submit" class="btn btn-primary w-25 rounded-pill">Update</button>
                      </div>
                    </form>
             </div>
