@@ -31,3 +31,19 @@
     border-radius:10px;
 
   }
+
+  .card-sizing{
+    width: 248px;
+    height: 355px;
+  }
+  .header-color{
+    color: rgb(128,126,123);
+    list-style: none;
+    
+
+  }
+  .content-color{
+    color: white;
+    padding-top: 20px;
+    list-style: none;
+  }
