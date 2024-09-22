@@ -1,1 +1,33 @@
- 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 90px;
+}
+.langar-regular {
+    font-family: "Langar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .slide{
+    padding: 150px 0 0 0 ;
+  }
+  
+  .banner{
+    width:200vh;
+    height: 70vh;
+  }
+  .small-img-shade{
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .second-banner{
+
+    width: 760px;
+    height: 500px;
+    border-radius:10px;
+
+  }
